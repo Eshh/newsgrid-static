@@ -11,10 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" media="screen and (max-width:768px)" href="../style/mobile.css">
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <title>About</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="./style/mobile.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>Articles</title>
 </head>
 
 <body>
@@ -31,16 +31,24 @@
 
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="current">About</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </div>
     </nav>
     <!-- Section -->
-    <section id="about">
+    <section id="article">
         <div class="container">
             <div class="page-container">
                 <article class="card">
-                    <h1 class="l-heading">About our organization</h1>
+                    <img src="../img/articles/ent1.jpg" alt="">
+                    <h1 class="l-heading">Lorem ipsum dolor sit amet.</h1>
+                    <div class="meta">
+                        <small>
+                            <i class="fas fa-user"></i>&nbsp;Posted by Eswar Prasad Kona
+                            , May 23, 1997
+                        </small>
+                        <div class="category category-ent">Entertainment</div>
+                    </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus dignissimos rerum magni
                         exercitationem iste doloremque provident ipsam ea, maxime, quidem corporis fugiat ab fugit
                         aperiam cum alias voluptatem optio totam. Fugiat molestias atque, aliquam culpa excepturi a id
@@ -62,11 +70,22 @@
                         magnam libero.</p>
 
                 </article>
-                <aside class="card bg-primary">
+                <aside id="categories" class="card bg-primary">
+                    <h2>Categories</h2>
+                    <ul class="list">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>&nbsp;Sports</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>&nbsp;Entertainment</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>&nbsp;Technology</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>&nbsp;Fashion</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>&nbsp;Shopping</a></li>
+                    </ul>
+                </aside>
+                <aside class="card bg-secondary">
                     <h2>Join our club</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, inventore!</p>
                     <a href="" class="btn btn-dark btn-block">Join now</a>
                 </aside>
+
             </div>
 
         </div>
